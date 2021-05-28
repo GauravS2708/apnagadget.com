@@ -1,0 +1,90 @@
+<! Doctype html>
+<html>
+<head>
+	<title>login|signup</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+<div class="logo">
+ <img class src="images/logo.png" width=90px></div>
+<div class="header">
+ <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="About Us.html">About Us</a></li>
+	<li><a href="Our Team.html">Our Team</a></li>
+	<li><a class="active" href="Login.html">Login<span>|</span>Signup</a></li>
+	<input type="text" placeholder="Search" style="outline:none;margin-left:30px;">
+	<i class="fa fa-search" style="color:gold;"></i>
+	<i class="fa fa-shopping-cart" style="color:gold;"></i>
+	<i class="fa fa-user" style="color:gold;"></i>
+</div>
+</ul>	
+
+<div class="sign-up">
+<h3>Sign-up</h3>
+<form>
+<i class="fa fa-user" style="font-size:15px;color:white;"></i> 
+<input type="text" id="text" placeholder="Enter Your Name " required><br></br>
+<i class="fa fa-envelope" style="font-size:15px;color:white;"></i>
+<input type="email" id="Email" placeholder="Enter Email"><br></br>
+<i class="fa fa-lock" style="font-size:15px;color:white;"></i>
+<input type="password" id="password" placeholder="Create Password"><br>
+<p style="text-align:center;color:white;font-size:15px;">Sign up with</p>
+<i class="fa fa-google" style="font-size:15px;color:gold;margin-left:100px;padding:2px"></i>
+<i class="fa fa-facebook" style="font-size:15px;color:gold;"></i><br>
+<br>
+<button class="btn2" onclick="signUp()">Sign up</button>
+</form>
+</div>
+
+
+<div class="login">
+<form>
+<h3>Login</h3>
+<label for="Username">Email</label><br><br>
+<i class="fa fa-user" style="font-size:15px;color:white;"></i>
+<input type="email" id="Email" placeholder="Email or Username"><br><br><br>
+<label for="password">Password</label><br><br>
+<i class="fa fa-lock" style="font-size:15px;color:white;"></i>
+<input type="password" id="password" placeholder="Password">
+<br></br><br><a href="#">Forgot Password?</a>
+<br></br>
+<button class="btn" onclick="signIn()">Sign in</button>
+</form>
+</div>
+
+<div class="container">
+<div class="footer">
+<div class="left-box">
+<ul>	
+	<li><a href="index.html">Home</a></li>
+	<li><a href="#">FAQ</a></li>
+	<li><a href="#">Support</a></li>
+	<li><a href="#">Careers</a></li>
+</ul>
+<ul class="social">
+	<li><a href="https://www.facebook.com/gaurav.sangewar.3/" target="_blank"><i class="fa fa-facebook" style="color:gold;font-size:13px;"></i></a></li>
+	<li><a href="mailto:G.Sangewar27@gmail.com" target="_blank"><i class="fa fa-envelope" style="color:gold;font-size:13px;"></i></a></li>
+	<li><a href="https://www.instagram.com/its_gauravsangewar/" target="_blank"><i class="fa fa-instagram" style="color:gold;font-size:13px;"></i></li><li><a href="https://www.linkedin.com/in/g-sangewar27" target="_blank"><i class="fa fa-linkedin" style="color:gold;font-size:13px;"></i></a></li>
+</ul>
+</div>
+<p>Copyright <i class="fa fa-copyright"></i> 2020 apnagadget.com. All Rights Reserved</p>
+</div>
+</div>
+<script>
+function signIn(){
+
+alert("Welcome Gaurav Sangewar");
+}
+
+function signUp(){
+alert("Welcome Gaurav Sangewar");
+}
+
+
+</script>
+</body>
+</html>
